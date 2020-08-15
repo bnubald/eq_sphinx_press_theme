@@ -1,0 +1,11 @@
+{# custom links for navbar, i.e. #}
+{% if theme_custom_links %}
+  {% for (label, url) in theme_custom_links %}
+    <div class="nav-item">
+      <a href="{{ url }}"
+        class="nav-link">
+          {{ label }}
+      </a>
+    </div>
+  {% endfor %}
+{% endif %}

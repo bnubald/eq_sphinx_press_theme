@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="sphinx_press_theme",
+    name="eq_sphinx_press_theme",
     version="0.5.1",
     url="https://schettino72.github.io/sphinx_press_site/",
     license="MIT",
@@ -22,7 +22,7 @@ setup(
             "static/*.js",
         ]
     },
-    entry_points={"sphinx.html_themes": ["press = sphinx_press_theme"]},
+    entry_points={"sphinx.html_themes": ["eq_press = sphinx_press_theme"]},
     install_requires=["sphinx>=2.0.0"],
     classifiers=[
         "Framework :: Sphinx",

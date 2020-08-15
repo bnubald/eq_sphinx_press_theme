@@ -24,11 +24,11 @@ First install the theme:
    $ pip install sphinx_press_theme
 
 
-On Sphinx project's ``conf.py``: set the theme name to ``press``.
+On Sphinx project's ``conf.py``: set the theme name to ``eq_press``.
 
 .. code-block:: python
 
-   html_theme = "press"
+   html_theme = "eq_press"
 
 
 See details on `Sphinx theming docs <http://www.sphinx-doc.org/en/master/theming.html#using-a-theme>`_.

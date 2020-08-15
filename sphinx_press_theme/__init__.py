@@ -161,4 +161,4 @@ def add_toctree_data(app, pagename, templatename, context, doctree):
 def setup(app):
     app.add_env_collector(SimpleTocTreeCollector)
     app.connect('html-page-context', add_toctree_data)
-    app.add_html_theme('press', path.abspath(path.dirname(__file__)))
+    app.add_html_theme('eq_press', path.abspath(path.dirname(__file__)))

@@ -1,5 +1,5 @@
 <navbar @toggle-sidebar="toggleSidebar">
-  <router-link to="{{pathto(master_doc)}}" class="home-link">
+  <router-link to="{{ theme_landing_page }}" class="home-link">
     {% if logo %}
       <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="logo"/>
     {% else %}
@@ -10,6 +10,7 @@
   <div class="links">
     <navlinks class="can-hide">
       {%- include "util/navlinks.html" %}
+      {%- include "util/custlinks.html" %}
       {%- include "util/extlinks.html" %}
     </navlinks>
   </div>
